@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>English ~ Suomeksi</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- PWA manifest -->
+<link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+<h1>
+<span class="english">English</span> ~ 
+<span class="finnish">Suomeksi</span>
+</h1>
+
+<input
+id="searchInput"
+type="text"
+placeholder="Type word here to search"
+/>
+
+<button id="translateButton">find</button>
+
+<div id="translationBox"></div>
+
+<h3 class="sectionTitle" id="englishTitle">English notes:</h3>
+<div id="englishNotes" class="box green"></div>
+
+<h3 class="sectionTitle" id="finnishTitle">Finnish notes:</h3>
+<div id="finnishNotes" class="box blue"></div>
+
+<div id="tableBox" class="box orange"></div>
+
+<div id="imageContainer">
+<img id="wordImage">
+</div>
+
+
+<script src="app.js"></script>
+
+<script>
+// Register service worker for offline support
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('Service Worker registered'))
+        .catch(err => console.log('Service Worker failed:', err));
+}
+
+// Enable Enter key search
+document.getElementById("searchInput").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // prevents form submit if inside a form
+        searchWord();
+    }
+});
+</script>
+
+<footer id="siteFooter" style="
+    text-align: center; 
+    font-size: 12px; 
+    color: gray; 
+    margin-top: 20px;
+    padding-bottom: 10px;
+">
+    © Shartus™ (in development)
+</footer>
+
+</body>
+</html>
