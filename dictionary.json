@@ -7,9 +7,31 @@
         "table": [],
         "imageName": ""
     },
+        {
+        "words": ["s", "S"],
+        "translation": "Waka's index / content help",
+        "englishDefinition": [
+            ["<b>This site/app is for my personal reviewer. It may contain errors, wrong: info, spelling, translation, definition. Use at your own risk</b>"],
+            "Type the word in hit the circle or enter to search.",
+            "For finnish verbs type: verb or 1, 2, 3, 4, 5, 6.",
+            "some words that contain additional information type: <b>z</b> at the end of the word ex. moodz"
+        ],
+        "finnishDefinition": "",
+        "table": [
+            ["App/site contents:", ""],
+            ["try to type this:", "contains"],
+            ["verb, 1,2,3,4,5,6", "explanation chosen verbs"],
+            ["kpt", "consonant gradations"],
+            ["abr", "abbrevations in finnish"],
+            ["meds,ctl,antidote,drugz", "some info about medications"],
+            ["dm,schizo,dimentia", "some info about diseases"],
+            ["fallz,talkz,walkz,moodz,mealz,skinz,hygienez,restz,goalz", "some info & example charting for the ff."]
+        ],
+        "imageName": ""
+    },
     {
         "words": ["verb", "verbs"],
-        "translation": "6 types",
+        "translation": "6 types: verb1, verb2, verb3, verb4, verb5, verb6",
         "englishDefinition": [
             "xxx = verb sample, V = vowels, <green>PP</green> = personal pronoun.",
             "1: present tense  *EAT* (something happening or will happen)",
@@ -18,17 +40,18 @@
             "4: past participle *FEED* (something was already done to someone/something)"
         ],
         "finnishDefinition": [
-            "<green>PP</green> = personal pronoun ending (added to verbs at the end)",
-            "Sngular:",
-            "°I          n       minä",
-            "°you        t       sinä",
-            "°he/she     -       hän",
-            "Plural:",
-            "°we         mme     me",
-            "°you        tte     te",
-            "°they       vät/vat he/ne"
+            "<green>PP</green> = personal pronoun ending (added to verbs at the end)"
         ],
-        "table": [],
+        "table": [
+            ["Singular:", "", "", "puhukieli"],
+            ["I", "n", "minä", "mä"],
+            ["You", "t", "sinä", "sä"],
+            ["He/She", "-", "hän,", "se"],
+            ["Plural:", "", "", "puhukieli"],
+            ["We", "mme", "me", "me"],
+            ["You 'guys'", "tte", "te", "te"],
+            ["They", "vat/vät", "he", "ne"]
+        ],
         "imageName": ""
     },
     {
@@ -485,7 +508,7 @@
         "imageName": ""
     },
     {
-        "words": ["fall info", "nadapa", "nahulog", "natumba"],
+        "words": ["fall info", "nadapa", "nahulog", "natumba", "fallz"],
         "translation": "katumisriski ,risk for fall",
         "englishDefinition": [
             "Assessment:",
@@ -515,7 +538,7 @@
         "imageName": ""
     },
     {
-        "words": ["hygiene info", "ligo"],
+        "words": ["hygiene info", "ligo", "hygienez"],
         "translation": "hygienia, assessment related to hygiene",
         "englishDefinition": [
             "1. Resident took a shower in the morning.",
@@ -553,7 +576,7 @@
         "imageName": ""
     },
     {
-        "words": ["sleep info"],
+        "words": ["sleep info", "sleepz", "restz"],
         "translation": "assessment related to rest",
         "englishDefinition": [
             "1. R slept well, uninterruptedly through the whole night.",
@@ -573,7 +596,7 @@
         "imageName": ""
     },
     {
-        "words": ["food info"],
+        "words": ["food info", "foodz", "mealz"],
         "translation": "Ruokavalio/Ravitsemus: assessment related to eating/diet.",
         "englishDefinition": [
             "1. Resident ate breakfast with a good appetite.",
@@ -599,7 +622,7 @@
         "imageName": ""
     },
     {
-        "words": ["goodmood"],
+        "words": ["goodmood", "goodz", "goodmoodz"],
         "translation": "Slight variation but same meaning",
         "englishDefinition": [
             "1. In good mood.",
@@ -623,7 +646,7 @@
         "imageName": ""
     },
     {
-        "words": ["mood info"],
+        "words": ["mood info", "mood chart", "moodz"],
         "translation": "(Psyykkinen toimintakyky) mental functioning, related to mood, alertness, sleep (mieliala, vireystila, uni)",
         "englishDefinition": [
             "1. Resident was in a good mood during the morning shift.",
@@ -655,7 +678,7 @@
         "imageName": ""
     },
     {
-        "words": ["mobility info", "mobility function", "mobility fxn"],
+        "words": ["mobility info", "mobility function", "mobility fxn", "walk chart", "mobility chart", "mobilityz", "walkz"],
         "translation": "toimintakyky = ability to function",
         "englishDefinition": [
             "1. Resident was able to walk with a walker to the dining area after lunch.",
@@ -687,7 +710,7 @@
         "imageName": ""
     },
     {
-        "words": ["skin info", "balat"],
+        "words": ["skin info", "balat", "skin care", "skincare", "skin chart", "skinz"],
         "translation": "ihon kunto / kudosten terveys = skin conditions",
         "englishDefinition": [
             "1. Applied lotion to resident after shower.",
@@ -717,7 +740,7 @@
         "imageName": ""
     },
     {
-        "words": ["wish info", "goal info"],
+        "words": ["wish info", "goal info", "goal chart", "goalz", "wishz"],
         "translation": "asukkaan tavoite esimerkki, client wishes or goals",
         "englishDefinition": [
             "Pain relief:",
@@ -775,7 +798,7 @@
         "imageName": ""
     },
     {
-        "words": ["communication info", "interaction info", "talk info"],
+        "words": ["communication info", "interaction info", "talk info", "coms chart", "comz", "communicationz", "talkz"],
         "translation": "examples of nurse patient interactions",
         "englishDefinition": [
             "1. R chat with the nurse aboout her family and reminiced about her childhood.",
@@ -974,6 +997,136 @@
         "imageName": ""
     },
         {
+        "words": ["memory loss,", "dementia", "Alzheimers", "makakalimutin"],
+        "translation": "Memory loss, Dementia, Alzheimers",
+        "englishDefinition": [
+            "Memory loss: is symptom, can be temporary/permanent, not a dse.",
+            "Dementia: are group of Sx., involves decline in cognitive fxn., progressive & irreversible",
+            "Alzheimers: a dse. that cause Dementia, is a terminal, degenerative condition",
+            "ex. evaluations:",
+            "1. Px agitation decreased after implenting an 'action'.",
+            "2. Wandering behavior managed, no falls during night shift.",
+            "notes:",
+            "-5 sec rule: is you ask questio wait for them to answer (they need more time to analyse and answer the situation).",
+            "-one idea at atime: instruct 1 action & wait them to do it then follow up (step by step).",
+            "-Validate: ex. if Px want to go work but is already retired 30 years ago = explain the work place is close + divert",
+            "-Do NOT approach them from behind or side always on front, stay at eye level & kalma lang"
+        ],
+        "finnishDefinition": [
+            "Muistihäirö: Ihiminen unohtelee asioita enemmän kuin tavallisesti.",
+            "Dementia: tila, jossa aivot eivät enää toimi kunnolla arjessa.",
+            "Alzheimerin tauti: yleisin sairaus, joka aiheuttaa dementia.",
+            "esi. arvioinnit:",
+            "1. Potilaan levottomuus väheni, kun tehtiin tietty 'toimi'.",
+            "2. Vaeltelua hallittiin, eikä yöllä sattunut kaatumisia."
+        ],
+        "table": [
+            ["Problem category:", "Nursing problem:", "intervention:"],
+            ["Cognitive", "Impaired memory, chronic confusion, disoriented to time/place", "-"],
+            ["Safety", "risk for fall, injury & wandering", "lower bed, secure bed at night, frequent Px rounds/checks"],
+            ["Pyschosocial", "anxiety, agitation, sleep disturbance", "explain & present reality & safety,(mabagtit da gamin mabeteng da. let them feel safe tapnu kumalma da."],
+            ["Self-care", "self-care deficit (bathing, dressing, feeding)", "assist but maintain independency, let them choose."],
+            ["Communication", "Impaired verbal coms", "validate what they say, use simple words, give time to answer."],
+            ["<b>how to handle behaviors like:</b>"],
+            ["situation:", "what NOT to do", "what to DO"],
+            ["pa-ulit ulit na tanong.", "Dont say 'i just told you that'.", "ANSWER it like the 1st time + distract them with task."],
+            ["looking for dead person/relative.", "Dont say 'they die 5year ago.'", "VALIDATE it! ask more about that person."],
+            ["if Frustrated, galit or bad mood.", "wag patulan, Dont argue or use logic.", "ACKNOWLEDGE the emotions (mukhang bad trip ka ngayon, Anteeks, että tämä on vaikea. Mennään hakemaan milktea)."],
+            ["ulaw aboout where they are.", "Do not give long info about the address.", "ORIENT briefly (sä ot sairaalassa, olen sun hoitaja. Olet turvassa täällä)."]
+        ],
+        "imageName": ""
+    },
+        {
+        "words": ["dm", "diabetes mellitus"],
+        "translation": "Diabetes mellitus: a chronic metabolic disorder related to high blood sugar",
+        "englishDefinition": [
+            "It happen when pancreas does not produce enough insulin or the body cannot use the insulin effectively.",
+            "°3 P <b>Primary symptoms</b>",
+            "<b>P</p>olydipsia: uhaw na uhaw. tosi jano.",
+            "<b>P</p>olyphagia: gutom na gutom. tosi nalka.",
+            "<b>P</p>olyuria: ihi ng ihi. runsas virtsaaminen",
+            "°Diagnosis: <b>HbA1c</b> ≥ 6.5% (measures average glucose over 3 months).",
+            "-Fasting blood glucose: ≥ 126 mg/dL : 7.0 mmol/L. (atleast 8 hours fasting)",
+            "-Random blood glucose: ≥ 200 mg/dL wtih symptoms. (doesnt matter when last meal was.)",
+            "",
+            "Hyperglycemia = blood sugar ≥ 200 mg/dL : gradual onset Tx:give insulin prn, good diet",
+            "Hypoglycemia = blood sugar ≤ 70 mg/dL : sudden onset Tx:consious=oral agents for 15 mins then recheck blood sugar. Unconcious=give IV 50% dextrose D50 or glucagon(IM. IV, subQ.)"
+        ],
+        "finnishDefinition": [
+            "Haima ei tuotaa riita insuliinia.",
+            "Polydypsia : voimakas jano",
+            "Polyfagia : voimakas nalka",
+            "Polyuria : runsas virtsaminen",
+            "Paastoverensokeri",
+            "Hyperglykemia",
+            "Hypoglykemia"
+        ],
+        "table": [
+            ["Features", "Type 1 DM", "type 2 DM"],
+            ["Onset", "Abrupt; usually in childhood/youth", " Gradual; usually in adult"],
+            ["Primary cause", "Autoimmune destruction of beta cells", "Insulin resistance relative deficiency"],
+            ["Insulin status", "None produced: require life lonng injections", "Resistance: some insulin is made"],
+            ["Primary Treatment", "Insulin", "LIfestye, oral agent/food, possible insulin"],
+            ["Symptoms", "Thirst, fatigue, frequent unrination", "fatigue after meal, irritable, leg aches, impaired vission"],
+            ["<b>Crisis</b>", "Diabetic ketoacidosis (DKA)", "Hyperosmolar Hyperglycemic State (HHS)"],
+            ["Crisis Sx", "DOB, nausea, sweet smell breath, frequent thirst & unrinate", "weakness, hunger, sweaty cold skin"],
+            ["Crisis Tx", "call 112 (help)", "oral agents: 1-2dl juice, 4-8sugar cubes, 1-2 tbsp honey/raisins, medium size fruit"],
+            ["", "", ""]
+        ],
+        "imageName": ""
+    },
+        {
+        "words": ["adjectives", "adjective", "adj"],
+        "translation": "adjectives",
+        "englishDefinition": [
+            "1. normally",
+            "2. always",
+            "3. careless",
+            "4. meaningless",
+            "5. casually",
+            "6. suddenly"
+        ],
+        "finnishDefinition": [
+            "1. normally",
+            "2. always",
+            "3. välinppitämätön",
+            "4. merik",
+            "5. rennosti",
+            "6. yhtäkkiä"
+        ],
+        "table": [],
+        "imageName": ""
+    },
+        {
+        "words": ["schizo", "schizoprenia"],
+        "translation": "chronic brain disorder that affects how a person thinks, feel & behave. (a break from reality)",
+        "englishDefinition": [
+            "<b>3 Main symptoms:</b>",
+            "°Postiive Sx (added behaviors): things that are added to a normal person but shouldn't be there.",
+            "-Hallucinations(sense), Delusions(beliefs), Disorganize(ulaw)",
+            "°Negative Sx (remove behaviors): things that disappear from normal person personality.",
+            "-Flat affect(wallang pake), Avolition(losing ADL things), Social withdrawal(emo time)",
+            "°Cognitive Sx are issues wtih memory lost, focus & making decisions",
+            "<b>cause:</b>",
+            "-Genetics",
+            "-Brain chemistry (doppamine & glutamate rxn)", 
+            "-Environment (high stress, trauma or over use of drugs)",
+            "<b>Treatment:</b>",
+            "-Medication (antippsychitic drugs)",
+            "-Therapy (take councels)",
+            "-Support (family, friends, health care support)",
+            "ang mga taong naiintindihan ang sitwasyuun mo ay siyang makakatulong sayo bow!."
+        ],
+        "finnishDefinition": "yyy",
+        "table": [
+            ["Sx", "symptoms"],
+            ["ADL", "Activities of Daily Living"],
+            ["rxn", "reaction"],
+            ["schizo are NOT dangerous", "just listen, understand, validate & present reality"]
+        ],
+        "imageName": ""
+    },
+        {
         "words": ["anatomy", "body"],
         "translation": "anatomia",
         "englishDefinition": ["body parts"],
@@ -1010,7 +1163,11 @@
         "translation": "Common therapeutic levels (check also meds, antidote, drugs.)",
         "englishDefinition": "",
         "finnishDefinition": "",
-        "table": [],
+        "table": [
+            ["1ml 20gtts/min", "1 gtt = 0,05ml",  "1hr = 1200gtts:60ml"],
+            ["neste 1% = 10mg/ml", "voide 1% = 10mg/g", "1%=1:100x10 = 1"],
+            ["# to % = # : 100 . 10 = %", "no. devide by 100 multiply by 10 = %", ""]
+        ],
         "imageName": "commontherapeuticlevels.jpg"
     },
         {
@@ -1022,7 +1179,7 @@
         "imageName": "antidote.jpg"
     },
         {
-        "words": ["wof", "drugs"],
+        "words": ["wof", "drugz"],
         "translation": "(check also meds, antidote, ctl)",
         "englishDefinition": ["use of medicines and what to check when given."],
         "finnishDefinition": "",
@@ -6341,7 +6498,17 @@
             "7. NaCl",
             "8. Solution",
             "9. Needdle for aspirating",
-            "10. Sharps waste container"
+            "10. Sharps waste container",
+            "11. Artery",
+            "12. blood vessels",
+            "13. vein",
+            "<purple>notes</purple>",
+            "°In needle gauge higher G = smaller hole",
+            "i.v. = intravenoosi / laskimonsisäinen",
+            "i.c./i.d. = intradermaalinen / intrakutaaninen",
+            "s.c. = subkutaaninen / ihonalainen",
+            "i.m. = Intramuskulaarinen / lihaksensisäinen",
+            "i.a. = intra-artikulaarinen / nivelensisäinen (administer inside joints)"
             ],
         "finnishDefinition": [
             ":Ruiskon asiat",
@@ -6353,9 +6520,21 @@
             "7. Keittosuola",
             "8. Lääkeliuos",
             "9. Ottoneula",
-            "10. Särmäysjäte:astia"
+            "10. Särmäysjäte:astia",
+            "11. Valtimo",
+            "12. Verisuonet",
+            "13. laskimo"
         ],
-        "table": [],
+        "table": [
+            ["route/antoreitti", "degrees/asteen", "volume can take", "needle gauge/neulojen"],
+            ["i.c./i.d.", "15°", "0.5 ml max", "26 - 27"],
+            ["s.c.", "45°-90°", "1-2 ml max", "23 - 25"],
+            ["i.m.", "90°", "1-2 ml max", "20 - 25"],
+            ["", "", "thigh & Abd. gluteal muscles = 5 ml max", ""],
+            ["", "", "buttox muscles = 4 ml max", ""],
+            ["", "", "deltoid muscles = 2 ml max", ""],
+            ["BT", "blood transfusion", "verensiirto", "18 - 19"]
+        ],
         "imageName": ""
       },
       {
