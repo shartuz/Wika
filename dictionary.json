@@ -15,7 +15,7 @@
             "-Type any word & hit the circle or enter to search.",
             "-If you word does not appear i google mo nalang po boss.",
             "-For finnish verbs ex. type: verb or 1, 2, 3, 4, 5, 6.",
-            "-Some words that contain additional information type: <b>z</b> at the end of the word ex. moodz"
+            "-Some words that contain additional information type: <b>z</b> at the end of the word ex. mood<b>z</b>"
         ],
         "finnishDefinition": "",
         "table": [
@@ -26,7 +26,9 @@
             ["abr", "abbrevations in finnish"],
             ["meds,ctl,antidote,drugz", "some info about medications"],
             ["dm,schizo,dimentia", "some info about diseases"],
-            ["fallz,talkz,walkz,moodz,mealz,skinz,hygienez,restz,goalz", "some info & example charting for the ff."]
+            ["fallz,talkz,walkz", "some info & example charting for the ff."],
+            ["hygienez,restz,goalz", ""],
+            ["moodz,mealz,skinz", ""]
         ],
         "imageName": ""
     },
