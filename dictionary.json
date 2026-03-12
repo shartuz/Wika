@@ -11,15 +11,16 @@
         "words": ["s", "S"],
         "translation": "Waka's index / content help",
         "englishDefinition": [
-            ["<b>This site/app is for my personal reviewer. It may contain errors, wrong: info, spelling, translation, definition. Use at your own risk</b>"],
-            "Type the word in hit the circle or enter to search.",
-            "For finnish verbs type: verb or 1, 2, 3, 4, 5, 6.",
-            "some words that contain additional information type: <b>z</b> at the end of the word ex. moodz"
+            ["<b>This site/app is just my personal reviewer. It may contain errors, wrong: info, spelling, translation, definition. Use at your own risk.</b>"],
+            "-Type any word & hit the circle or enter to search.",
+            "-If you word does not appear i google mo nalang po boss.",
+            "-For finnish verbs ex. type: verb or 1, 2, 3, 4, 5, 6.",
+            "-Some words that contain additional information type: <b>z</b> at the end of the word ex. moodz"
         ],
         "finnishDefinition": "",
         "table": [
             ["App/site contents:", ""],
-            ["try to type this:", "contains"],
+            ["try typing this:", "& It will contain these:"],
             ["verb, 1,2,3,4,5,6", "explanation chosen verbs"],
             ["kpt", "consonant gradations"],
             ["abr", "abbrevations in finnish"],
@@ -1000,9 +1001,9 @@
         "words": ["memory loss,", "dementia", "Alzheimers", "makakalimutin"],
         "translation": "Memory loss, Dementia, Alzheimers",
         "englishDefinition": [
-            "Memory loss: is symptom, can be temporary/permanent, not a dse.",
-            "Dementia: are group of Sx., involves decline in cognitive fxn., progressive & irreversible",
-            "Alzheimers: a dse. that cause Dementia, is a terminal, degenerative condition",
+            "<b>Memory loss</b>: is symptom, can be temporary/permanent, not a dse.",
+            "<b>Dementia</b>: are group of Sx., involves decline in cognitive fxn., progressive & irreversible",
+            "<b>Alzheimers</b>: a dse. that cause Dementia, is a terminal, degenerative condition",
             "ex. evaluations:",
             "1. Px agitation decreased after implenting an 'action'.",
             "2. Wandering behavior managed, no falls during night shift.",
@@ -1013,9 +1014,9 @@
             "-Do NOT approach them from behind or side always on front, stay at eye level & kalma lang"
         ],
         "finnishDefinition": [
-            "Muistihäirö: Ihiminen unohtelee asioita enemmän kuin tavallisesti.",
-            "Dementia: tila, jossa aivot eivät enää toimi kunnolla arjessa.",
-            "Alzheimerin tauti: yleisin sairaus, joka aiheuttaa dementia.",
+            "<b>Muistihäirö</b>: Ihiminen unohtelee asioita enemmän kuin tavallisesti.",
+            "<b>Dementia</b>: tila, jossa aivot eivät enää toimi kunnolla arjessa.",
+            "<b>Alzheimerin tauti</b>: yleisin sairaus, joka aiheuttaa dementia.",
             "esi. arvioinnit:",
             "1. Potilaan levottomuus väheni, kun tehtiin tietty 'toimi'.",
             "2. Vaeltelua hallittiin, eikä yöllä sattunut kaatumisia."
@@ -1028,7 +1029,7 @@
             ["Self-care", "self-care deficit (bathing, dressing, feeding)", "assist but maintain independency, let them choose."],
             ["Communication", "Impaired verbal coms", "validate what they say, use simple words, give time to answer."],
             ["<b>how to handle behaviors like:</b>"],
-            ["situation:", "what NOT to do", "what to DO"],
+            ["situation:", "what <red>NOT to do</b>", "what <blue>to DO</blue>"],
             ["pa-ulit ulit na tanong.", "Dont say 'i just told you that'.", "ANSWER it like the 1st time + distract them with task."],
             ["looking for dead person/relative.", "Dont say 'they die 5year ago.'", "VALIDATE it! ask more about that person."],
             ["if Frustrated, galit or bad mood.", "wag patulan, Dont argue or use logic.", "ACKNOWLEDGE the emotions (mukhang bad trip ka ngayon, Anteeks, että tämä on vaikea. Mennään hakemaan milktea)."],
@@ -1041,10 +1042,10 @@
         "translation": "Diabetes mellitus: a chronic metabolic disorder related to high blood sugar",
         "englishDefinition": [
             "It happen when pancreas does not produce enough insulin or the body cannot use the insulin effectively.",
-            "°3 P <b>Primary symptoms</b>",
-            "<b>P</p>olydipsia: uhaw na uhaw. tosi jano.",
-            "<b>P</p>olyphagia: gutom na gutom. tosi nalka.",
-            "<b>P</p>olyuria: ihi ng ihi. runsas virtsaaminen",
+            "°<b>3 P</b> Primary symptoms",
+            "<b>P</b>olydipsia: uhaw na uhaw. tosi jano.",
+            "<b>P</b>olyphagia: gutom na gutom. tosi nalka.",
+            "<b>P</b>olyuria: ihi ng ihi. runsas virtsaaminen",
             "°Diagnosis: <b>HbA1c</b> ≥ 6.5% (measures average glucose over 3 months).",
             "-Fasting blood glucose: ≥ 126 mg/dL : 7.0 mmol/L. (atleast 8 hours fasting)",
             "-Random blood glucose: ≥ 200 mg/dL wtih symptoms. (doesnt matter when last meal was.)",
@@ -1068,10 +1069,9 @@
             ["Insulin status", "None produced: require life lonng injections", "Resistance: some insulin is made"],
             ["Primary Treatment", "Insulin", "LIfestye, oral agent/food, possible insulin"],
             ["Symptoms", "Thirst, fatigue, frequent unrination", "fatigue after meal, irritable, leg aches, impaired vission"],
-            ["<b>Crisis</b>", "Diabetic ketoacidosis (DKA)", "Hyperosmolar Hyperglycemic State (HHS)"],
+            ["<red>Crisis</red>", "Diabetic ketoacidosis (DKA)", "Hyperosmolar Hyperglycemic State (HHS)"],
             ["Crisis Sx", "DOB, nausea, sweet smell breath, frequent thirst & unrinate", "weakness, hunger, sweaty cold skin"],
-            ["Crisis Tx", "call 112 (help)", "oral agents: 1-2dl juice, 4-8sugar cubes, 1-2 tbsp honey/raisins, medium size fruit"],
-            ["", "", ""]
+            ["Crisis Tx", "call 112 (help)", "oral agents: 1-2dl juice, 4-8sugar cubes, 1-2 tbsp honey/raisins, medium size fruit"]
         ],
         "imageName": ""
     },
@@ -1102,12 +1102,12 @@
         "translation": "chronic brain disorder that affects how a person thinks, feel & behave. (a break from reality)",
         "englishDefinition": [
             "<b>3 Main symptoms:</b>",
-            "°Postiive Sx (added behaviors): things that are added to a normal person but shouldn't be there.",
+            "°<blue>Postiive Sx</blue> (added behaviors): things that are added to a normal person but shouldn't be there.",
             "-Hallucinations(sense), Delusions(beliefs), Disorganize(ulaw)",
-            "°Negative Sx (remove behaviors): things that disappear from normal person personality.",
+            "°<red>Negative Sx</red> (remove behaviors): things that disappear from normal person personality.",
             "-Flat affect(wallang pake), Avolition(losing ADL things), Social withdrawal(emo time)",
-            "°Cognitive Sx are issues wtih memory lost, focus & making decisions",
-            "<b>cause:</b>",
+            "°<b>Cognitive Sx</b> are issues wtih memory lost, focus & making decisions",
+            "<b>Cause:</b>",
             "-Genetics",
             "-Brain chemistry (doppamine & glutamate rxn)", 
             "-Environment (high stress, trauma or over use of drugs)",
