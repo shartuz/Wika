@@ -11,14 +11,23 @@
         "words": ["s", "S"],
         "translation": "Waka's index / content help",
         "englishDefinition": [
-            ["<b>This site/app is just my personal reviewer. It may contain errors, wrong: info, spelling, translation, definition. Use at your own risk.</b>"],
+            "<b>Personal project under development. Content may be inaccurate or incomplete. Use at your own risk.</b>",
             "-Type any word & hit the circle or enter to search.",
             "-If you word does not appear i google mo nalang po boss.",
             "-For finnish verbs ex. type: verb or 1, 2, 3, 4, 5, 6.",
-            "-Some words that contain additional information type: <b>z</b> at the end of the word ex. mood<b>z</b>"
+            "-example charting type: <b>z</b> at the end of the word ex. moodz",
+            "<green>PP</green> - means personal pronoun",
+            "x - means Something.",
+            "vt - means Transitive verb (action that needs object).",
+            "vi - means Intransitive verb: <blue>-ua/-yä/-ytyä</blue> ending. (action with no direct object / complete on its own).",
+            "R - means Resident.",
+            "Px - means Patient.",
+            "Tx / tx - means Treatment."
         ],
-        "finnishDefinition": "",
-        "table": [
+        "finnishDefinition": [
+            "<blue>Moi! tämä kehitysvaiheessa oleva projektisivu. Tiedot voivat olla epätarkkoja. Käyttö omalla vastuulla. Kiitos.</blue>"
+        ],
+            "table": [
             ["App/site contents:", ""],
             ["try typing this:", "& It will contain these:"],
             ["verb, 1,2,3,4,5,6", "explanation chosen verbs"],
@@ -26,9 +35,7 @@
             ["abr", "abbrevations in finnish"],
             ["meds,ctl,antidote,drugz", "some info about medications"],
             ["dm,schizo,dimentia", "some info about diseases"],
-            ["fallz,talkz,walkz", "some info & example charting for the ff."],
-            ["hygienez,restz,goalz", ""],
-            ["moodz,mealz,skinz", ""]
+            ["fallz,talkz,walkz,moodz,mealz,skinz,hygienez,restz,goalz", "ex. charting cheat sheet"]
         ],
         "imageName": ""
     },
@@ -475,7 +482,7 @@
         "table": [
             ["en:", "need", "choose", "disturb", "restrain"],
             ["fi:", "tarvita", "valita", "häiritä", "hillitä"],
-            ["PP:", "I",        "you", "we",    "they"],
+            ["PP:", "I", "you", "we", "they"],
             ["1:", "tarvitsen", "valitset", "häiritsemme", "hillitsevät"],
             ["2:", "tarvitsin", "valitsit", "häiritsimme", "hillitsivät"],
             ["3:", "tarvinnut", "valinnut", "häirinneet", "hillinneet"],
@@ -512,7 +519,7 @@
     },
     {
         "words": ["fall info", "nadapa", "nahulog", "natumba", "fallz"],
-        "translation": "katumisriski ,risk for fall",
+        "translation": "katumisriski ,risk for fall  (charting).",
         "englishDefinition": [
             "Assessment:",
             "1. Report dizziness on standing.",
@@ -542,7 +549,7 @@
     },
     {
         "words": ["hygiene info", "ligo", "hygienez"],
-        "translation": "hygienia, assessment related to hygiene",
+        "translation": "hygienia, assessment related to hygiene (charting).",
         "englishDefinition": [
             "1. Resident took a shower in the morning.",
             "2. R beard shaved during shower.",
@@ -556,8 +563,8 @@
             "10. R requested to put curlers in her hair after shower.",
             "11. R nails cut and polish applied after shower.",
             "12. Podiatrist cared for resident's feet.",
-            "13. Previously R didn’t want to go to sauna, but now wants to.",
-            "14. Uses the WC independently and doesn’t need help."
+            "13. Previously R did not want to go to sauna, but now wants to.",
+            "14. Uses the WC independently and does not need help."
         ],
         "finnishDefinition": [
             "1. Asukas käynyt aamulla suihkussa.",
@@ -580,7 +587,7 @@
     },
     {
         "words": ["sleep info", "sleepz", "restz"],
-        "translation": "assessment related to rest",
+        "translation": "assessment related to rest (charting).",
         "englishDefinition": [
             "1. R slept well, uninterruptedly through the whole night.",
             "2. R walks with walker to dining room for lunch.",
@@ -600,7 +607,7 @@
     },
     {
         "words": ["food info", "foodz", "mealz"],
-        "translation": "Ruokavalio/Ravitsemus: assessment related to eating/diet.",
+        "translation": "Ruokavalio/Ravitsemus: assessment related to eating/diet (charting).",
         "englishDefinition": [
             "1. Resident ate breakfast with a good appetite.",
             "2. Resident drank very little fluid today.",
@@ -614,7 +621,7 @@
         "finnishDefinition": [
             "1. Asukas söi aamupalan hyvällä ruokahalulla.",
             "2. Asukas joi tänään hyvin vähän nestettä.",
-            "3. Asmupala mastui huonosti. Asukas kertoi, ettei ole nälkä. Joi kahvia, Söi vähän leipää",
+            "3. Aamupala maistui huonosti. Asukas kertoi, ettei ole nälkä. Joi kahvia, Söi vähän leipää",
             "4. Lounas maistui hyvin, Joi kaksi lasia maitoa.",
             "5. Asukkaalla jatkossa soseruoka. Nieliminen vakeutunut",
             "6. Asukas toivoi saavansa suklaata (toivoo, että saisi). Asiasta kerrottu omaisille.",
@@ -650,7 +657,7 @@
     },
     {
         "words": ["mood info", "mood chart", "moodz"],
-        "translation": "(Psyykkinen toimintakyky) mental functioning, related to mood, alertness, sleep (mieliala, vireystila, uni)",
+        "translation": "(Psyykkinen toimintakyky) mental functioning, related to mood, alertness, sleep (mieliala, vireystila, uni) charting.",
         "englishDefinition": [
             "1. Resident was in a good mood during the morning shift.",
             "2. Resident reported sleeping well.",
@@ -682,7 +689,7 @@
     },
     {
         "words": ["mobility info", "mobility function", "mobility fxn", "walk chart", "mobility chart", "mobilityz", "walkz"],
-        "translation": "toimintakyky = ability to function",
+        "translation": "toimintakyky = ability to function (charting).",
         "englishDefinition": [
             "1. Resident was able to walk with a walker to the dining area after lunch.",
             "2. Resident washed her face independently and dried her body with a towel.",
@@ -714,7 +721,7 @@
     },
     {
         "words": ["skin info", "balat", "skin care", "skincare", "skin chart", "skinz"],
-        "translation": "ihon kunto / kudosten terveys = skin conditions",
+        "translation": "ihon kunto / kudosten terveys = skin conditions (charting).",
         "englishDefinition": [
             "1. Applied lotion to resident after shower.",
             "2. Resident's armpits are red; cream/talc powder applied.",
@@ -744,7 +751,7 @@
     },
     {
         "words": ["wish info", "goal info", "goal chart", "goalz", "wishz"],
-        "translation": "asukkaan tavoite esimerkki, client wishes or goals",
+        "translation": "asukkaan tavoite esimerkki, client wishes or goals (charting).",
         "englishDefinition": [
             "Pain relief:",
             "1. Hopes for pain to decrease even a little, so that she can function better in everyday life.",
@@ -802,7 +809,7 @@
     },
     {
         "words": ["communication info", "interaction info", "talk info", "coms chart", "comz", "communicationz", "talkz"],
-        "translation": "examples of nurse patient interactions",
+        "translation": "examples of nurse patient interactions (charting).",
         "englishDefinition": [
             "1. R chat with the nurse aboout her family and reminiced about her childhood.",
             "2. R daughter visited. they had a coffee in their room. Daughter brought new pants for her mother",
@@ -863,10 +870,10 @@
         "words": ["feel", "feels", "feels like", "pakiramdam"],
         "translation": "'Tuntea, Tuntua, Tunnustella, Aistia",
         "englishDefinition": [
-            "°Tuntea - transitive: to feel emotional/physical sensation. (I feel this coldness.)",
-            "°Tuntua -intransitive: perceive to be. (it feels to me like you dont like me.)",
-            "°Tunnustella - transitive: to feel with physical action. (Dr. palpated the stomach.)",
-            "°Aistia - transitive: to sense/perceive. (I sensed danger.)",
+            "°<blue>Tuntea</blue> - vt: to feel emotional/physical sensation. (I feel this coldness.)",
+            "°<blue>Tuntua</blue> -vi: perceive to be. (it feels to me like you dont like me.)",
+            "°<blue>Tunnustella</blue> - vt: to feel with physical action. (Dr. palpated the stomach.)",
+            "°<blue>Aistia</blue> - vt: to sense/perceive. (I sensed danger.)",
             "being able to: feel, experience, influence.",
             "1. feeling better",
             "2. feels influence",
@@ -1086,15 +1093,19 @@
             "3. careless",
             "4. meaningless",
             "5. casually",
-            "6. suddenly"
+            "6. suddenly",
+            "7. Usually",
+            "8. Regulalrly"
         ],
         "finnishDefinition": [
-            "1. normally",
-            "2. always",
+            "<blue>1. normaalisti",
+            "2. aina",
             "3. välinppitämätön",
-            "4. merik",
+            "4. meriktyksetön",
             "5. rennosti",
-            "6. yhtäkkiä"
+            "6. yhtäkkiä",
+            "7. yleensä",
+            "8. säännöllisesti</blue>"
         ],
         "table": [],
         "imageName": ""
@@ -4619,13 +4630,13 @@
         "translation": "Ajatella, Luulla, Miettiä, Pohtia, Harkita",
         "englishDefinition": [
             "Verb type 3:",
-            "°Ajatella - to think (daily thoughts)",
-            "°Luulla - to think like a guess (nanghuhula)",
+            "°<blue>Ajatella</blue> - to think (daily thoughts)",
+            "°<blue>Luulla</blue> - to think like a guess (nanghuhula)",
             "Verb type 1:",
-            "°Miettiä - to wonder/reflect (daily thoughs but more like trying to solve a problem)",
-            "°Pohtia - To ponder/analyze (deep thoughts)",
+            "°<blue>Miettiä</blue> - to wonder/reflect (daily thoughs but more like trying to solve a problem)",
+            "°<blue>Pohtia</blue> - To ponder/analyze (deep thoughts)",
             "Verb type 5:",
-            "°Harkita - to consider/weight options (deep thoughs)"
+            "°<blue>Harkita</blue> - to consider/weight options (deep thoughs)"
         ],
         "finnishDefinition": "",
         "table": [],
@@ -4660,9 +4671,17 @@
         "imageName": ""
       },
       {
-        "words": ["introduce"],
-        "translation": "Esitellä",
-        "englishDefinition": "Verb type 3",
+        "words": ["introduce", "orient"],
+        "translation": "Esitellä, Esittäytyä, Tutustuttaa, Perehdyttää, Suunnata, Orientoitua",
+        "englishDefinition": [
+            "Mix verb type 1,3,4",
+            "°<blue>Esitellä</blue> - vt: to introduce someone or x.",
+            "°<blue>Esittäytyä</blue> - vi: to introduce your self.",
+            "°<blue>Tutustuttaa</blue> - vt: to introduce people to each other or a topic.",
+            "°<blue>Perehdyttää</blue> - vt: to orient to work or training.",
+            "°<blue>Suunnata</blue> - vt: orient in a way of directions.",
+            "°<blue>Orientoitua</blue> - vi: getting use to something."
+        ],
         "finnishDefinition": "",
         "table": [],
         "imageName": ""
@@ -4891,17 +4910,17 @@
         "words": ["freeze", "cold", "chill"],
         "translation": "Pakastaa, Pakastua, Kohmettua, Syväjäätyä, Jäätyä, Viilentää, Viiletä, Palella, Jäähdytellä, Kylmetä",
         "englishDefinition": [
-            "Mix verbs:",
-            "°Pakastaa - transitive: to freeze x.",
-            "°Pakastua - intransitive: to become frozen.",
-            "°Kohmettua - intransitive: to get stiff from cold.",
-            "°Syväjäätyä - intransitive: to deep freeze (extreme)",
-            "°Jäätyä - intranstive: to freeze like turning into ice",
-            "°Viilentää - transitive: to cool x down (The fan cools the room)",
-            "°Viiletä - intransitive: to get cool (a pleasant cold like evening breeze on the summer)",
-            "°Palella - to feel cold. (sensation of being chilly) 'I am cold:Minua paleltaa",
-            "°Jäähdytellä - to cool down like in exercise after doing sports.",
-            "°Kylmetä - intransitive to become colder/cold."
+            "Mix verbs of 1,3,6:",
+            "°<blue>Pakastaa</blue> - vt: to freeze x.",
+            "°<blue>Pakastua</blue> - vi: to become frozen.",
+            "°<blue>Kohmettua</blue> - vi: to get stiff from cold.",
+            "°<blue>Syväjäätyä</blue> - vi: to deep freeze (extreme)",
+            "°<blue>Jäätyä</blue> - vt: to freeze like turning into ice",
+            "°<blue>Viilentää</blue> - vt: to cool x down (The fan cools the room)",
+            "°<blue>Viiletä</blue> - vi: to get cool (a pleasant cold like evening breeze on the summer)",
+            "°<blue>Palella</blue> - to feel cold. (sensation of being chilly) 'I am cold:Minua paleltaa",
+            "°<blue>Jäähdytellä</blue> - to cool down like in exercise after doing sports.",
+            "°<blue>Kylmetä</blue> - vi: to become colder/cold."
         ],
         "finnishDefinition": "",
         "table": [],
@@ -4911,15 +4930,15 @@
         "words": ["hot", "warm", "heat", "melt", "boil"],
         "translation": "Lämmittää, Lämmetä, Kuumentaa, Kuumeta, Sulattaa, Sulaa, Keittää, Kiehua",
         "englishDefinition": [
-            "Mix verbs:",
-            "°Lämmittää - transitive: to heat x. (I heat up the sauna.)",
-            "°Lämmetä - intransitive: to get warm. (Sauna is getting warm)",
-            "°Kuumentaa - transitive: to make x hot. (I'll make the sauna as hot as the sun)",
-            "°Kuumeta - intransitive: to get hot. (Sauna is getting hot)",
-            "°Sulattaa - transitive: to melt x. (I am melting butter)",
-            "°Sulaa - intransitive: to melt. (the snow is melting:Lumi sulaa )",
-            "°Keittää - transitive: to boil x. (I am boiling water)",
-            "°Kiehua - intransitive: to boil.(water is boiling)"
+            "Mix verbs of 1,6:",
+            "°<blue>Lämmittää</blue> - vt: to heat x. (I heat up the sauna.)",
+            "°<blue>Lämmetä</blue> - vi: to get warm. (Sauna is getting warm)",
+            "°<blue>Kuumentaa</blue> - vt: to make x hot. (I'll make the sauna as hot as the sun)",
+            "°<blue>Kuumeta</blue> - vi: to get hot. (Sauna is getting hot)",
+            "°<blue>Sulattaa</blue> - vt: to melt x. (I am melting butter)",
+            "°<blue>Sulaa</blue> - vi: to melt. (the snow is melting:Lumi sulaa )",
+            "°<blue>Keittää</blue> - vt: to boil x. (I am boiling water)",
+            "°<blue>Kiehua</blue> - vi: to boil.(water is boiling)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -4930,11 +4949,11 @@
         "translation": "Laittaa, Esittää, Asettaa, Panna.",
         "englishDefinition": [
             "Verb type 1:",
-            "°Laittaa - to place x to somewhere (General term: like for everyday/casual use)",
-            "°Esittää - to express x in certain manner. (Present/show: like ideas/performance)",
-            "°Asettaa - to set/position x. (Careful placement: like formal/precise)",
+            "°<blue>Laittaa</blue> - to place x to somewhere (General term: like for everyday/casual use)",
+            "°<blue>Esittää</blue> - to express x in certain manner. (Present/show: like ideas/performance)",
+            "°<blue>Asettaa</blue> - to set/position x. (Careful placement: like formal/precise)",
             "Verb type 3:",
-            "°Panna - to set into a state/conditon. (like putting a warning signs) *DO NOT USE* this word coz it has linguistic warning label"
+            "°<blue>Panna</blue> - to set into a state/conditon. (like putting a warning signs) *DO NOT USE* this word coz it has linguistic warning label"
         ],
         "finnishDefinition": "",
         "table": [],
@@ -5025,14 +5044,14 @@
         "translation": "Noudattaa, Vahtia, Valvoa, Observoida, Havainnoida, Tarkkailla",
         "englishDefinition": [
           "Verb type 1:",
-          "°Noudatta - observe in a way of obeying/following x (adhering to rules or laws).",
-          "°Vahtia - keeping an eye/to guard x. (protecting/preventing) ex. guard on a gate / mother watching todler at playground.",
-          "°Valvoa - stay awake/supervise. ex. I stayed awake all night/ teacher supervise exam.",
+          "°<blue>Noudatta</blue> - observe in a way of obeying/following x (adhering to rules or laws).",
+          "°<blue>Vahtia</blue> - keeping an eye/to guard x. (protecting/preventing) ex. guard on a gate / mother watching todler at playground.",
+          "°<blue>Valvoa</blue> - stay awake/supervise. ex. I stayed awake all night/ teacher supervise exam.",
           "Verb type 2:",
-          "°Observoida - lawn word to observe formally or scientifically mostly use in academic, scientific & professional contexts.",
-          "°Havainnoida - to observe/percieve like gathering data & noticing details",
+          "°<blue>Observoida</blue> - lawn word to observe formally or scientifically mostly use in academic, scientific & professional contexts.",
+          "°<blue>Havainnoida</blue> - to observe/percieve like gathering data & noticing details",
           "Verb type 3:",
-          "°Tarkailla - an active continues observation/monitoring"
+          "°<blue>Tarkailla</blue> - an active continues observation/monitoring"
         ],
         "finnishDefinition": "",
         "table": [],
@@ -5147,10 +5166,10 @@
         "translation": "Hyppiä, Hypätä, Loikata",
         "englishDefinition": [
             "Verb type 1:",
-            "°Hyppiä - to jump reapetedly (use this if description is on continues jumping.)",
+            "°<blue>Hyppiä</blue> - to jump reapetedly (use this if description is on continues jumping.)",
             "Verb type 4:",
-            "°Hypätä - to jump once",
-            "°Loikata - to take a long jump like leap in a long jump sports."
+            "°<blue>Hypätä</blue> - to jump once",
+            "°<blue>Loikata</blue> - to take a long jump like leap in a long jump sports."
         ],
         "finnishDefinition": "",
         "table": [],
@@ -5244,7 +5263,7 @@
             "examples:",
             "-Maata tähtitaivaan alla = Lie underneath the stars.",
             "-Sinun pitää maata sängyssä = You have to lie in bed.",
-            "-Haluatko maata kanssasi? = Do you want to sleep with me. (awanen! sleep jerjer, sleep pa more.)"
+            "-Haluatko maata kanssasi? = Do you want to sleep with me. (awanen! na sleep jerjer en.)"
         ],
         "table": [],
         "imageName": ""
@@ -5299,12 +5318,15 @@
       },
       {
         "words": ["play"],
-        "translation": "Pelata",
+        "translation": "Pelata, Näytellä, Leikkiä, Soittaa",
         "englishDefinition": [
             "Verb type 4:",
-            "°Pelata - to play a toy, sports or video game",
+            "°<blue>Pelata</blue> - to play game with rules",
+            "Verb type 3:",
+            "°<blue>Näytellä</blue> - to play a part in a act/movie",
             "Verb type 1:",
-            "°Soittaa - to play an instrument."
+            "°<blue>Leikkiä</blue> - to play with toys or imagination",
+            "°<blue>Soittaa</blue> - to play an instrument."
             ],
         "finnishDefinition": "",
         "table": [],
@@ -5391,10 +5413,16 @@
         "imageName": ""
       },
       {
-        "words": ["urinate"],
+        "words": ["urinate", "ihi"],
         "translation": "Virtsata",
         "englishDefinition": "Verb type 4",
-        "finnishDefinition": "",
+        "finnishDefinition": [
+            "<blue>Virtsa</blue> - urine",
+            "Kävitkö pissalla? / Tuliko pissa? - nakaihi ka na ba?.",
+            "Onko vitsaa tullut? - nakaihi ka na ba? (can be use in medical context)",
+            "Onko virtsaaminen sujunut? - wala bang problema sa pag ihi mo? (can be use in medical context)",
+            "Oletteko vitsannut? naka ihi na po ba kayo sir/madam? (very formal context)"
+        ],
         "table": [],
         "imageName": ""
       },
@@ -5431,8 +5459,8 @@
         "translation": "Etsiä, Tutkia",
         "englishDefinition": [
             "Verb type 1-i *(aa ää) (ea eä) (ia iä) (ua yä oa oä)*",
-            "°Etsiä - to look thoroughly for x.",
-            "°Tutkia - to look thoroughly but more like investigation."
+            "°<blue>Etsiä</blue> - to look thoroughly for x.",
+            "°<blue>Tutkia</blue> - to look thoroughly but more like investigation."
             ],
         "finnishDefinition": "",
         "table": [],
@@ -5491,8 +5519,8 @@
         "translation": "Hoitaa, Välittää",
         "englishDefinition": [
             "Verb type 1-i *(aa ää) (ea eä) (ia iä) (ua yä oa oä)*",
-            "°Hoitaa - to take care of x physically / handle things. (I'll take care of her.)",
-            "°Välittää - to care about x emotionally (I care about you.)"
+            "°<blue>Hoitaa</blue> - to take care of x physically / handle things. (I'll take care of her.)",
+            "°<blue>Välittää</blue> - to care about x emotionally (I care about you.)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -5538,8 +5566,8 @@
         "translation": "Laihtua, Lihoa",
         "englishDefinition": [
             "Verb type 1-i *(aa ää) (ea eä) (ia iä) (ua yä oa oä)*",
-            "°Laihtua - to gain weight, tumaba",
-            "°Lihoa - to lose weight, pumayat"
+            "°<blue>Laihtua</blue> - to gain weight, tumaba",
+            "°<blue>Lihoa</blue> - to lose weight, pumayat"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -5650,7 +5678,7 @@
         "englishDefinition": [
             "Verb type 1-i *(aa ää) (ea eä) (ia iä) (ua yä oa oä)*",
             "-to ask someone for marriage",
-            "°Ehdottaa/Esittää - to suggest a proposal/plan"
+            "°<blue>Ehdottaa/Esittää</blue> - to suggest a proposal/plan"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -5709,13 +5737,13 @@
         "translation": "Liikkua, Liikuttaa, Siirtyä, Siirtää, Kulkea, Muuttua, Muuttaa.",
         "englishDefinition": [
             "Verb type 1-i *(aa ää) (ea eä) (ia iä) (ua yä oa oä)*",
-            "°Liikkua - intransitive: to move. (I move)",
-            "°Liikuttaa - transitive: to move x. (I move the table).",
-            "°Siirtyä - intransitive: to move/transfer from A to B. (I move this from here to there)",
-            "°Siirtää - transitive: to move/transfer like reschedule. (Can yuo move my shift?)",
-            "°Kulkea - intransitive: to move via travel/pass through. (Bus goes once an hour/tame pass quickly)",
-            "°Muuttua - intansitive-: change into/become. (I can change)",
-            "°Muuttaa - transitive: to move to a new place. (I'm moving to a new home/He changed the plan)"
+            "°<blue>Liikkua</blue> - intransitive: to move. (I move)",
+            "°<blue>Liikuttaa</blue> - transitive: to move x. (I move the table).",
+            "°<blue>Siirtyä</blue> - intransitive: to move/transfer from A to B. (I move this from here to there)",
+            "°<blue>Siirtää</blue> - transitive: to move/transfer like reschedule. (Can yuo move my shift?)",
+            "°<blue>Kulkea</blue> - intransitive: to move via travel/pass through. (Bus goes once an hour/tame pass quickly)",
+            "°<blue>Muuttua</blue> - intansitive-: change into/become. (I can change)",
+            "°<blue>Muuttaa</blue> - transitive: to move to a new place. (I'm moving to a new home/He changed the plan)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6079,9 +6107,9 @@
         "translation": "Paistaa, Käristää, Kärtsätä",
         "englishDefinition": [
             "Verb type 1:",
-            "°Paistaa - transitive: to fry/bake/roast x.",
-            "°Käristää - to slighly burn x. (usually use on foods if its nakset.)",
-            "°Kärtsätä - to sear/sizzle x, cooking x on a high heat. (like cooking a fried rice in a wok)"
+            "°<blue>Paistaa</blue> - transitive: to fry/bake/roast x.",
+            "°<blue>Käristää</blue> - to slighly burn x. (usually use on foods if its nakset.)",
+            "°<blue>Kärtsätä</blue> - to sear/sizzle x, cooking x on a high heat. (like cooking a fried rice in a wok)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6108,11 +6136,11 @@
         "translation": "Saavuttaa, Ulottua, Yltää, Yletä Päästä",
         "englishDefinition": [
             "Verb type 1:",
-            "°Saavuttaa - to achieved like goal, age, speed, success.",
-            "°Ulottua - to extend like physical distance.",
-            "°Yltää - to reach x like height/lenght. (same with 'Yletä')",
+            "°<blue>Saavuttaa</blue> - to achieved like goal, age, speed, success.",
+            "°<blue>Ulottua</blue> - to extend like physical distance.",
+            "°<blue>Yltää</blue> - to reach x like height/lenght. (same with 'Yletä')",
             "Verb type 3:",
-            "°Päästä - to get to arrive at a physical location."
+            "°<blue>Päästä</blue> - to get to arrive at a physical location."
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6123,9 +6151,9 @@
         "translation": "Pukea, Pukeutua",
         "englishDefinition": [
             "Verb type 1:",
-            "°Pukea - transitive: to dress someone. (damitan na kita)",
-            "°Pukeutua - intransitive: to dress onseself. (nagdadamit na siya)",
-            "°Riissua - to undress someone."
+            "°<blue>Pukea</blue> - vt: to dress someone. (damitan na kita)",
+            "°<blue>Pukeutua</blue> - vi: to dress onseself. (nagdadamit na siya)",
+            "°<blue>Riissua</blue> - vt: to undress someone."
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6136,11 +6164,11 @@
         "translation": "Pyrkiä, Aikoa, Tavoitella, Tähdätä",
         "englishDefinition": [
             "Verb type 1:",
-            "°Pyrkiä - to aspire mostly use in career",
-            "°Aikoa - to intend or plan to do something",
+            "°<blue>Pyrkiä</blue> - to aspire mostly use in career",
+            "°<blue>Aikoa</blue> - to intend or plan to do something",
             "Verb type 3:",
-            "°Tavoitella - transitive + partitive: to pursue x like goal, title or victory.",
-            "°Tähdätä - to aim with precision (like a weapon)."
+            "°<blue>Tavoitella</blue> - vt + partitive: to pursue x like goal, title or victory.",
+            "°<blue>Tähdätä</blue> - to aim with precision (like a weapon)."
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6287,9 +6315,9 @@
         "translation": "Editoida, Muokata",
         "englishDefinition": [
             "Verb type 2:",
-            "°Editoida - to edit in digitally like video, audio or code.",
+            "°<blue>Editoida</blue> - to edit in digitally like video, audio or code.",
             "Verb type 4:",
-            "°Muokata - all-purpose verb to edit, change, adjust."
+            "°<blue>Muokata</blue> - all-purpose verb to edit, change, adjust.(can be use in charting/kirjoitaminen)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6308,9 +6336,9 @@
         "translation": "Juoda, Juottaa",
         "englishDefinition": [
             "Verb type 2:",
-            "°Juoda - intransitive: to drink x. (uminom ka ng milktea.)",
+            "°<blue>Juoda</blue> - intransitive: to drink x. (uminom ka ng milktea.)",
             "Verb type 1:",
-            "°Juottaa - transitive: to give drink to someone. (painumin mo siya ng gatas.)"
+            "°<blue>Juottaa</blue> - transitive: to give drink to someone. (painumin mo siya ng kape.)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6393,9 +6421,9 @@
         "translation": "Syödä, Syöttää",
         "englishDefinition": [
             "Verb type 2:",
-            "°Syödä - intransitive: to eat x. (kumakain siya ng chickenjoy)",
+            "°<blue>Syödä</blue> - intransitive: to eat x. (kumakain siya ng chickenjoy)",
             "Verb type 1:",
-            "°Syöttää - transitive: to feed someone. (pakainin mo sila ng balut.)"
+            "°<blue>Syöttää</blue> - transitive: to feed someone. (pakainin mo sila ng balut.)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6454,10 +6482,10 @@
         "translation": "Voida, Saada, Pystyä",
         "englishDefinition": [
             "Verb type 2:",
-            "°Voida - to be able to permision/potential to do x. (sige gurl tulungan kita.)",
-            "°Saada - asking permision. (pwede bang umuwi na ako?)",
+            "°<blue>Voida</blue> - to be able to permision/potential to do x. (sige gurl tulungan kita.)",
+            "°<blue>Saada</blue> - asking permision. (pwede bang umuwi na ako?)",
             "Verb type 1:",
-            "°Pystyä - to be able to with the capacity/strenght to do x. (di ko kayang buhatin yan boss.)"
+            "°<blue>Pystyä</blue> - to be able to with the capacity/strenght to do x. (di ko kayang buhatin yan boss.)"
             ],
         "finnishDefinition": "",
         "table": [],
@@ -6544,97 +6572,106 @@
         "translation": "Lyhenteiden selitykset",
         "englishDefinition": ["abbreviations"],
         "finnishDefinition": [
-            "°Yleisiä hoitotyön ja lääkinnän lyhenteitä:",
-            "p.o. (per os) suun kautta",
-            "i.v. (intravenoosinen), laskimoon, suonensisäinen",
-            "i.m. (intramuskulaarinen) lihaksensisäinen",
-            "s.c. (subkutaaninen) ihonalainen",
-            "prn (pro re nata) tarvittaessa",
-            "t.a. -taustatieto / työaika",
-            "tks -tarkistettu",
-            "kpl -kappale",
-            "vrk -vuorokausi",
-            "nro -numero",
-            "dos. - dosetti, annos",
-            "ent. - entinen, aikaisempi",
-            "vaik. - vaikea, vaikutus, vaikuttava aine",
-            "turv. - turvalllinen, torvotus, turvonnut",
-            "pkv-lääke -pääasiassa keskushermostoon vaikuttava lääke",
-            "PVK+T - pieni verenkuva",
-            "TVK - täydellinen verenkuva",
-            "MMSE - muistitesti",
-            "vas. - vasen",
-            "oik. oikea",
-            "mmol - millimooli",
-            "mol. molemmat",
-            "mol - mooli",
-            "I. sin - vasemmanpuolinen",
-            "I. dex - oikeanpuolinen",
+            "°<b>Yleisiä hoitotyön ja lääkinnän lyhenteitä:</b>",
+            "<purple>p.o.</purple> (per os) suun kautta",
+            "<purple>i.v.</purple> (intravenoosinen), laskimoon, suonensisäinen",
+            "<purple>i.m.</purple> (intramuskulaarinen) lihaksensisäinen",
+            "<purple>s.c.</purple> (subkutaaninen) ihonalainen",
+            "<purple>prn</purple> (pro re nata) tarvittaessa",
+            "<purple>t.a.</purple> -taustatieto / työaika",
+            "<purple>tks</purple> -tarkistettu",
+            "<purple>kpl</purple> -kappale",
+            "<purple>vrk</purple> -vuorokausi",
+            "<purple>nro</purple> -numero",
+            "<purple>dos.</purple> - dosetti, annos",
+            "<purple>ent.</purple> - entinen, aikaisempi",
+            "<purple>vaik.</purple> - vaikea, vaikutus, vaikuttava aine",
+            "<purple>turv.</purple> - turvalllinen, torvotus, turvonnut",
+            "<purple>pkv-lääke</purple> -pääasiassa keskushermostoon vaikuttava lääke",
+            "<purple>PVK+T</purple> - pieni verenkuva",
+            "<purple>TVK</purple> - täydellinen verenkuva",
+            "<purple>MMSE</purple> - muistitesti",
+            "<purple>vas.</purple> - vasen",
+            "<purple>oik.</purple> oikea",
+            "<purple>mmol</purple> - millimooli",
+            "<purple>mol.</purple> molemmat",
+            "<purple>mol</purple> - mooli",
+            "<purple>I. sin</purple> - vasemmanpuolinen",
+            "<purple>I. dex</purple> - oikeanpuolinen",
             "",
-            "°Mittaukset ja elintoiminnot:",
-            "RR -verenpaine (Riva-Rocci)",
-            "RR-lasku -verenpaineen lasku",
-            "pulssi / p -syke",
-            "SpO2 -happisaturaatio",
-            "temp / t° -lämpötila",
-            "paino / p",
-            "pituus / l",
-            "HB - hemoglobiini",
-            "EKG -sydänsähkökäyrä",
-            "INR - INR-arvo",
-            "VS - verensokeri",
-            "U - urea, virtsa",
-            "CRP - tulehdusarvo, 'serppi'",
-            "NL - nestelista",
-            "VM - virtsamäärä/-mitta",
-            "bal - balanssi, tasapaino",
-            "KK - kestokatetri",
+            "°<b>Mittaukset, Testi ja elintoiminnot:</b>",
+            "<purple>RR</purple> -verenpaine (Riva-Rocci)",
+            "<purple>RR-lasku</purple> -verenpaineen lasku",
+            "<purple>pulssi / P</purple> -syke",
+            "<purple>SpO2</purple> -happisaturaatio",
+            "<purple>temp / t°</purple> -lämpötila",
+            "<purple>P. / paino</purple>",
+            "<purple>Pit. /pituus</purple>",
+            "<purple>HB</purple> - hemoglobiini",
+            "<purple>EKG</purple> -elektrokardiogrammi, sydämen sähkökäyrä",
+            "<purple>INR</purple> - INR-arvo",
+            "<purple>VS</purple> - verensokeri",
+            "<purple>U</purple> - urea, virtsa",
+            "<purple>CRP</purple> - tulehdusarvo, 'serppi'",
+            "<purple>NL</purple> - nestelista",
+            "<purple>VM</purple> - virtsamäärä/-mitta",
+            "<purple>bal</purple> - balanssi, tasapaino",
+            "<purple>KK</purple> - kestokatetri",
+            "<purple>CO</purple> - hiilimonoksidi",
+            "<purple>COPD</purple> - keuhkoahtaumatauti",
+            "<purple>DNC</purple> - neurosirkulatorinen dystonia",
+            "<purple>EF</purple> - ejektiofraktio",
+            "<purple>AT</purple> - anaerobinen kynnys",
+            "<purple>BMI</purple> - body mass index (kg/m2) eli painoindeksi",
+            "<purple>Na</purple> - natrium",
+            "<purple>O2</purple> - happi",
             "",
-            "°Potilaskertomukset ja raportointi:",
-            "hoit. -hoitaja / hoito",
-            "ptl, pot -potilas",
-            "dg -diagnoosi",
-            "vointi/vo -potilaan tila",
-            "an -anamneesi (esitiedot)",
-            "stat. (status) -potilaan tila tutkimushetkellä",
-            "epikriisi -loppulausunto",
-            "hoitosuunn. -hoitosuunnitelma",
-            "seur - seuraava; seuranta",
-            "norm - normaali",
-            "ohj - ohjaaja, ohje, ohjaus, ohjattu",
-            "ilm - ilmainen, ilmoittaa, ilmoitettu",
-            "suht - suhteellinen, suhteellisen, melko",
-            "ent. entinen, aikaisempi",
+            "°<b>Potilaskertomukset ja raportointi:</b>",
+            "<purple>hoit.</purple> -hoitaja / hoito",
+            "<purple>ptl, pot</purple> -potilas",
+            "<purple>dg</purple> -diagnoosi",
+            "<purple>vointi/vo</purple> -potilaan tila",
+            "<purple>an</purple> -anamneesi (esitiedot)",
+            "<purple>stat.</purple> (status) -potilaan tila tutkimushetkellä",
+            "<purple>epikriisi</purple> -loppulausunto",
+            "<purple>hoitosuunn.</purple> -hoitosuunnitelma",
+            "<purple>seur</purple> - seuraava; seuranta",
+            "<purple>norm</purple> - normaali",
+            "<purple>ohj</purple> - ohjaaja, ohje, ohjaus, ohjattu",
+            "<purple>ilm</purple> - ilmainen, ilmoittaa, ilmoitettu",
+            "<purple>suht</purple> - suhteellinen, suhteellisen, melko",
+            "<purple>ent.</purple> entinen, aikaisempi",
+            "<purple>ks. / kts.</purple> -katso",
             "",
-            "°Sairaalaympäristö ja osastot:",
-            "sote -sosiaali- ja terveydenhuolto",
-            "poliklinikka / polik. -avohoitoyksikkö",
-            "pkl, poli - poliklinikka",
-            "ppkl - päivistyspoliklinikka",
-            "tk - tervyskeskus",
-            "vk - vanhustenkeskus",
-            "vuodeos. -vuodeosasto",
-            "teho -teho-osasto",
-            "leik.os. -leikkausosasto",
-            "KYS/HUS/TAYS -yliopistolliset sairaalat (esim. HUS = Helsingin ja Uudenmaan sairaanhoitopiiri)",
-            "th -terveydenhoitaja",
-            "sh -sairaanhoitaja",
-            "lh -lähihoitaja",
-            "oh, omh - osastonhoitaja, omahoitaja",
-            "lääk - lääkäri",
-            "el - erikoislääkäri",
-            "rva - ruova",
-            "hra - herra",
-            "labra - laboratorio",
+            "°<b>Sairaalaympäristö ja osastot:</b>",
+            "<purple>sote</purple> -sosiaali ja terveydenhuolto",
+            "<purple>poliklinikka / polik.</purple> -avohoitoyksikkö",
+            "<purple>pkl, poli</purple> - poliklinikka",
+            "<purple>ppkl</purple> - päivistyspoliklinikka",
+            "<purple>tk</purple> - tervyskeskus",
+            "<purple>vk</purple> - vanhustenkeskus",
+            "<purple>vuodeos.</purple> -vuodeosasto",
+            "<purple>teho</purple> -teho osasto",
+            "<purple>leik.os.</purple> -leikkausosasto",
+            "<purple>KYS/HUS/TAYS</purple> -yliopistolliset sairaalat (esim. HUS = Helsingin ja Uudenmaan sairaanhoitopiiri)",
+            "<purple>th</purple> -terveydenhoitaja",
+            "<purple>sh</purple> -sairaanhoitaja",
+            "<purple>lh</purple> -lähihoitaja",
+            "<purple>oh, omh</purple> - osastonhoitaja, omahoitaja",
+            "<purple>lääk</purple> - lääkäri",
+            "<purple>el</purple> - erikoislääkäri",
+            "<purple>rva</purple> - ruova",
+            "<purple>hra</purple> - herra",
+            "<purple>labra</purple> - laboratorio",
             "",
-            "°Others:",
-            "n. - selvä, ok",
-            "ad - johonkin asti (until som point)",
-            "ym. ynnä muuta (etc..)",
-            "jne. ja niin edelleen (etc..)",
-            "em. - edellä mainittu (above said, aforementioned)",
-            "jkv - jonkin verran (somewhat)",
-            "mm. - muun muassa (among other things/inlcuding"
+            "°<b>Others:</b>",
+            "<purple>n.</purple> - selvä, ok",
+            "<purple>ad</purple> - johonkin asti (until som point)",
+            "<purple>ym.</purple> ynnä muuta (etc..)",
+            "<purple>jne.</purple> ja niin edelleen (etc..)",
+            "<purple>em.</purple> - edellä mainittu (above said, aforementioned)",
+            "<purple>jkv</purple> - jonkin verran (somewhat)",
+            "<purple>mm.</purple> - muun muassa (among other things/inlcuding"
         ],
         "table": [],
         "imageName": ""
@@ -6643,12 +6680,12 @@
         "words": ["shaver", "razor", "shave"],
         "translation": "Partakone, partahöylä",
         "englishDefinition": [
-            "°Parta - beard (balbas at bigote)",
-            "°Partakone - electric shaver/razor",
-            "°Partahöylä - razor (manual shaver)",
-            "°Partavaahto - shaving foam",
-            "°Partavesi - aftershave",
-            "°Ajaa - verb use for shaving"
+            "°<blue>Parta</blue> - beard (balbas at bigote)",
+            "°<blue>Partakone</blue> - electric shaver/razor",
+            "°<blue>Partahöylä</blue> - razor (manual shaver)",
+            "°<blue>Partavaahto</blue> - shaving foam",
+            "°<blue>Partavesi</blue> - aftershave",
+            "°<blue>Ajaa</blue> - verb use for shaving"
         ],
         "finnishDefinition": "Ajaa = aja/ajakaa/ajetaan parta.",
         "table": [],
@@ -6658,11 +6695,32 @@
         "words": ["crawl"],
         "translation": "Kontata, Ryömiä",
         "englishDefinition": [
-            "°Kontata - to crawl on all fours (use of hands and knees: Baby does before walking, man imitating a dog walk.)",
-            "°Ryömiä - to belly crawl (use of arms & stomach: soldier crawl under the barbwire, snake crawl.)"
+            "°<blue>Kontata</blue> - to crawl on all fours (use of hands and knees: Baby does before walking, man imitating a dog walk.)",
+            "°<blue>Ryömiä</blue> - to belly crawl (use of arms & stomach: soldier crawl under the barbwire, snake crawl.)"
             ],
         "finnishDefinition": "",
         "table": [],
         "imageName": ""
-      }
-    ]
+      },
+        {
+        "words": ["tae", "poop"],
+        "translation": "uloste, kaka",
+        "englishDefinition": ["excrement, stool or feces. (Katas ng mga kinain mo.)"],
+        "finnishDefinition": [
+            "<blue>Levittää</blue> - to apply manure",
+            "<blue>Lanta</blue> - manure or dung",
+            "Onko vatsa toiminut? - nakatae ka na po ba? (polite way, mostly use in medical context.)",
+            "kävitko kakalla? - nakatae ka na ba?"
+        ],
+        "table": [],
+        "imageName": ""
+    },
+        {
+        "words": ["yxy"],
+        "translation": "y",
+        "englishDefinition": ["xy"],
+        "finnishDefinition": ["xy"],
+        "table": [],
+        "imageName": ""
+    }
+]
