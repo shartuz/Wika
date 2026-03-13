@@ -1088,26 +1088,39 @@
         "words": ["adjectives", "adjective", "adj"],
         "translation": "adjectives",
         "englishDefinition": [
-            "1. normally",
-            "2. always",
-            "3. careless",
-            "4. meaningless",
-            "5. casually",
-            "6. suddenly",
-            "7. Usually",
-            "8. Regulalrly"
+            "1. Normally",
+            "2. Always",
+            "3. Casually",
+            "4. Suddenly",
+            "5. Usually",
+            "6. Regulalrly",
+            "7. Heartless",
+            "8. Endless"
         ],
         "finnishDefinition": [
             "<blue>1. normaalisti",
             "2. aina",
-            "3. välinppitämätön",
-            "4. meriktyksetön",
-            "5. rennosti",
-            "6. yhtäkkiä",
-            "7. yleensä",
-            "8. säännöllisesti</blue>"
+            "3. rennosti",
+            "4. yhtäkkiä / Akkiä",
+            "5. Yleensä / Tavallisesti",
+            "6. Säännöllisesti",
+            "7. Sydämetön",
+            "8. Päättymätön</blue>"
         ],
-        "table": [],
+        "table": [
+            ["-ful (full of) suffix" ,"-less (without) suffix", "-ish (like) suffix"],
+            ["Careful : <blue>Varovainen</blue>", "Careless : <blue>Huolimaton</blue>", "Childish : <blue>Lapsellinen</blue>"],
+            ["Useful : <blue>Hyödyllinen</blue>", "Useless : <blue>Hyödytön</blue>", "Selfish : <blue>Itsekäs</blue>"],
+            ["Painful : <blue>Tuskallinen</blue>", "Painless : <blue>Kivuton</blue>", "Foolish : <blue>Houkkamainen</blue>"],
+            ["Thoughtful : <blue>Huomaavainen</blue>", "Thoughtless : <blue>Huolimaton/Ajattelematon</blue>", "Stylish : <blue>Tyylikäs</blue>"],
+            ["Powerfull : <blue>Voimallinen</blue>", "Powerless : <blue>Voimaton</blue>", ""],
+            ["Worthy : <blue>Arvollinen</blue> / Priceless : <blue>Korvaamaton</blue>", "Worthless : <blue>Arvoton</blue>", ""],
+            ["Fearfull : <blue>Pelokas</blue>", "Fearless : <blue>Peloton</blue>", ""],
+            ["Active : <blue>Reipas</blue>", "Motionless : <blue>Liikkumaton</blue>", ""],
+            ["Housed : <blue>Kodinomistaja</blue>", "Homeless : <blue>Koditon</blue>", ""],
+            ["Lively : <blue>Eläväinen</blue>", "Lifeless : <blue>Eloton</blue>", ""],
+            ["Meaningful : <blue>Merkityksellinen</blue>", "Meaningless : <blue>Meriktyksetön</blue>", ""]
+        ],
         "imageName": ""
     },
         {
@@ -5575,9 +5588,12 @@
       },
       {
         "words": ["encourage"],
-        "translation": "Kannustaa",
-        "englishDefinition": "Verb type 1-i *(aa ää) (ea eä) (ia iä) (ua yä oa oä)*",
-        "finnishDefinition": "",
+        "translation": "Kannustaa, Rohkaista",
+        "englishDefinition": "",
+        "finnishDefinition": [
+            "°<blue>Kannustaa</blue> - to cheer up or support. (keep going, your doing great!)",
+            "°<blue>Rohkaista</blue> - to give courage. (You can do this, Dontt be afraid.)"
+        ],
         "table": [],
         "imageName": ""
       },
