@@ -2,8 +2,8 @@
     {
         "words": ["x"],
         "translation": "y",
-        "englishDefinition": "xy",
-        "finnishDefinition": "yx",
+        "englishDefinition": ["xy"],
+        "finnishDefinition": ["yx"],
         "table": [],
         "imageName": ""
     },
@@ -36,9 +36,12 @@
             ["verb, 1,2,3,4,5,6", "explanation chosen verbs"],
             ["kpt", "consonant gradations"],
             ["abr", "abbrevations in finnish"],
+            ["cases", "finnish language cases"],
+            ["color, number", "some info about it"],
             ["meds,ctl,antidote,drugz", "some info about medications"],
             ["dm,schizo,dimentia", "some info about diseases"],
-            ["fallz,talkz,walkz,moodz,mealz,skinz,hygienez,restz,goalz", "ex. charting cheat sheet"]
+            ["fallz,talkz,walkz,moodz,mealz,", "ex. charting cheat sheet"],
+            ["skinz,hygienez,restz,goalz,memoryz", ""]
         ],
         "imageName": ""
     },
@@ -1033,7 +1036,37 @@
         "imageName": ""
     },
         {
-        "words": ["memory loss,", "dementia", "Alzheimers", "makakalimutin"],
+        "words": ["dementiaz", "memoryz"],
+        "translation": "Charting related to memory loss",
+        "englishDefinition": [
+            "<b>1. Daily Well-being</b>: The resident has been alert today and participated in group activities.",
+            "<b>2. Confusion</b>: The resident appeared more confused than usual; was searching for their belongings and asking to go home.",
+            "<b>3. Restlessness</b>: The resident has been restless since the afternoon and wandering in the corridors.",
+            "<b>4. Sleep Pattern</b>: The resident slept peacefully through the night; woke up once to use the restroom.",
+            "<b>5. Appetite</b>: Appetite was good, but the resident required guidance and prompting to eat.",
+            "<b>6. Aggression/Refusal</b>: The resident refused morning washes and was resistant/aggressive during the situation.",
+            "<b>7. Disorientation</b>: The resident could not find their own room without guidance.",
+            "<b>8. Mood</b>: The resident has been tearful today and missing their loved ones.",
+            "<b>9. Change in Condition</b>: The resident's speech has become more slurred/unclear; condition is being monitored.",
+            "<b>10. Safety</b>: The resident attempted to get out of bed independently without an assistive device; reminded about using the call button."
+        ],
+        "finnishDefinition": [
+            "<b>1. Päivittäinen vointi</b>: Asukas ollut tänään virkeä ja osallistunut yhteiseen toimintaan.",
+            "<b>2. Sekavuus</b>: Asukas vaikuttanut tavanomaista sekavammalta; etsinyt tavaroitaan ja kysellyt kotiin.",
+            "<b>3. Levottomuus</b>: Asukas ollut levoton iltapäivästä alkaen ja vaellellut käytävillä.",
+            "<b>4. Yötä</b>: Asukas nukkunut yön rauhallisesti, herännyt kerran wc-käynnille.",
+            "<b>5. Ruokahalu</b>: Ruokahalu ollut hyvä, mutta asukas tarvinnut ohjausta ja kehotusta syömiseen.",
+            "<b>6. Aggressiivisuus/Torjunta</b>: Asukas kieltäytyi aamupesusta ja oli tilanteessa torjuva/aggressiivinen.",
+            "<b>7. Eksyminen/Suuntavaisto</b>: Asukas ei löytänyt omaan huoneeseensa ilman ohjausta.",
+            "<b>8. Mieliala</b>: Asukas ollut tänään itkuinen ja kaivannut läheisiään.",
+            "<b>9. Muutos voinnissa</b>: Asukkaan puhe on muuttunut epäselvemmäksi; vointia seurataan.",
+            "<b>10. Turvallisuus</b>: Asukas yritti nousta sängystä itsenäisesti ilman apuvälinettä; muistutettu soittokellon käytöstä."
+        ],
+        "table": [],
+        "imageName": ""
+    },
+        {
+        "words": ["memory loss", "dementia", "Alzheimers", "makakalimutin"],
         "translation": "Memory loss, Dementia, Alzheimers",
         "englishDefinition": [
             "<b>Memory loss</b>: is symptom, can be temporary/permanent, not a dse.",
@@ -5452,9 +5485,21 @@
         "imageName": ""
       },
       {
-        "words": ["urinate", "ihi"],
+        "words": ["urinate", "ihi", "pee"],
         "translation": "Virtsata",
-        "englishDefinition": "Verb type 4",
+        "englishDefinition": [
+            "Verb type 4",
+            "<blue>Kirkas/Valea</blue> - clear color urine.",
+            "<blue>Samentunut</blue> - cloudy (often sign of infextion).",
+            "<blue>Sakaalinen</blue> - sedimentary (contains visible particles or flakes).",
+            "<blue>Vaahtoava</blue> - foamy (can sometimes indicate protein in urine).",
+            "<blue>Haiseva</blue> - foul smelling.",
+            "<blue>Virtsaminen</blue> - act of peeing.",
+            "<blue>Kirvely</blue> - stingy or burning sensation (common in UTIs).",
+            "<blue>Tiheärvirtsaisuus</blue> - frequent urination (always goes to pee).",
+            "<blue>Virtsaumpi</blue> - urinary retention (unable to pee).",
+            "<blue>Virtsankarkailu</blue> - incontinnece (leaking urine)."
+        ],
         "finnishDefinition": [
             "<blue>Virtsa</blue> - urine",
             "Kävitkö pissalla? / Tuliko pissa? - nakaihi ka na ba?.",
@@ -6760,8 +6805,8 @@
         "imageName": ""
       },
         {
-        "words": ["tae", "poop"],
-        "translation": "uloste, kaka",
+        "words": ["tae", "poop", "stool"],
+        "translation": "stool: uloste, kaka",
         "englishDefinition": ["excrement, stool or feces. (Katas ng mga kinain mo.)"],
         "finnishDefinition": [
             "<blue>Levittää</blue> - to apply manure",
@@ -6769,12 +6814,21 @@
             "Onko vatsa toiminut? - nakatae ka na po ba? (polite way, mostly use in medical context.)",
             "kävitko kakalla? - nakatae ka na ba?"
         ],
-        "table": [],
+        "table": [
+            ["consistency:", ""],
+            ["Solid/firm", "<blue>Kiinteä</blue>"],
+            ["Soft", "<blue>Pehmeä</blue>"],
+            ["Loose", "<blue>Löysä</blue>"],
+            ["Watery", "<blue>Vesimäinen</blue>"],
+            ["Hard", "<blue>Kova</blue>"],
+            ["Lumpy", "<blue>Kokkareinen</blue>"],
+            ["Mushy/porridge-like", "<blue>Puuromainen</blue>"]
+        ],
         "imageName": ""
     },
         {
         "words": ["day"],
-        "translation": "y",
+        "translation": "related to days",
         "englishDefinition": [""],
         "finnishDefinition": [""],
         "table": [
