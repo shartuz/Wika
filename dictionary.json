@@ -6800,7 +6800,46 @@
         "imageName": ""
     },
         {
-        "words": ["yxy"],
+        "words": ["numbers", "number", "#"],
+        "translation": "relating to numbers",
+        "englishDefinition": [
+            "Numbers 11-19: add -toista.",
+            "ex. 11:1toista, 14:4toista, 18:8toista.",
+            "Numbers 20-99: add 70:7kymmentä, 90:9kymmentä.",
+            "Ordinal number for: -written : spoken",
+            "104 - Sadanneljäs : Sataneljäs",
+            "1999 - Tuhannesyhdeksässadasyhdeksäskymmenesyhdeksäs : Tuhat-yheksän-sataa-yheksän-kyt-yheksäs",
+            "Only the very last digit gets the <b>-s</b> (ordinal) ending in speech.",
+            "kpt changes also: nen - se"
+        ],
+        "finnishDefinition": [""],
+        "table": [
+            ["number", "written", "spoken", "ordinals"],
+            ["1", "<blue>yksi</blue>", "yks", "enisimainen"],
+            ["2", "<blue>kaksi</blue>", "kaks", "toinen"],
+            ["3", "<blue>kolme</blue>", "kolme", "kolmas"],
+            ["4", "<blue>nelja</blue>", "neljä", "neljas"],
+            ["5", "<blue>viisi</blue>", "viis", "viides"],
+            ["6", "<blue>kuusi</blue>", "kuus", "kuudes"],
+            ["7", "<blue>seitsemän</blue>", "seiska", "seitsemäs"],
+            ["8", "<blue>kahdeksan</blue>", "kasi", "kahdeksas"],
+            ["9", "<blue>yhdeksan</blue>", "ysi", "yhdeksäs"],
+            ["10", "<blue>kymmenen</blue>", "kymppi", "kymmenen"],
+            ["15", "<blue>viisitoista</blue>", "viistoista", "viidestoista"],
+            ["20", "<blue>kaksikymmentä</blue>", "kakskyt", "kahdeskymmenes"],
+            ["25", "<blue>kaksikymmentä viisi</blue>", "kakskytviis", "kahdeskymmenesviides"],
+            ["50", "<blue>viisikymmentä</blue>", "viiskyt", "viideskymmenes"],
+            ["100", "<blue>sata</blue>", "sata", "sadas"],
+            ["500", "<blue>viisisata</blue>", "viissata", "viidessadas"],
+            ["1000", "<blue>tuhat</blue>", "tonni", "tuhannes"],
+            ["10,000", "<blue>kymmenen tuhatta</blue>", "kymppi/kymmennen-toni", "kymmenentuhannes"],
+            ["100,000", "<blue>sata tuhatta</blue>", "satatoni", "sadastuhannes"],
+            ["1,000,000", "<blue>miljoona</blue>", "milli/miltsi", "miljoonas"]
+        ],
+        "imageName": ""
+    },
+        {
+        "words": ["xyx"],
         "translation": "y",
         "englishDefinition": ["xy"],
         "finnishDefinition": ["xy"],
