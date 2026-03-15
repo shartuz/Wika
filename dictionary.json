@@ -104,9 +104,9 @@
     },
         {
         "words": ["Cases", "casez", "taivutus"],
-        "translation": "local cases refering to in, on, to.",
-        "englishDefinition": ["xy"],
-        "finnishDefinition": ["xy"],
+        "translation": "local cases. Taivutus",
+        "englishDefinition": ["refering to in, on, to. from etch."],
+        "finnishDefinition": ["partivive, genitive"],
         "table": [
             ["Case",      "Meaning",            "Ending",      "example"],
             ["internal case (the IN group:use when something is inside a space; like room,box,city.)"],
