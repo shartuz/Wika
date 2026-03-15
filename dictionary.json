@@ -102,6 +102,29 @@
         ],
         "imageName": ""
     },
+        {
+        "words": ["Cases"],
+        "translation": "local cases refering to in, on, to.",
+        "englishDefinition": ["xy"],
+        "finnishDefinition": ["xy"],
+        "table": [
+            ["Case",      "Meaning",            "Ending",      "example"],
+            ["internal case (the IN group:use when something is inside a space; like room,box,city.)"],
+            ["Inessive <blue>Inessiivi</blue>",      "in (inside)",     "<purple>-ssa/ä/purple>",      "Talossa"],
+            ["Elative <blue>Elatiivi</blue>",      "from out of",     "<purple>-sta/ä/purple>",      "Talosta"],
+            ["Illative <blue>Illatiivi</blue>",      "into",          "<purple>-Vn / -hVn/purple>",      "Taloon"],
+            ["external case (the ON group:use for surfaces, open spaces or specific place like stations/desk.)"],  
+            ["Adessive <blue>Adessiivi</blue>",      "on / at",       "<purple>-lla/ä/purple>",      "Pöydällä"],
+            ["Ablative <blue>Ablatiivi</blue>",      "from off",      "<purple>-lta/ä/purple>",      "Pöydältä"],
+            ["Allative <blue>Allatiivi</blue>",      "onto / to",     "<purple>-lle/purple>",      "Pöydälle"],
+            ["others"],
+            ["Abessive <blue>Abessiivi</blue>",      "without case",     "<purple>-tta/ä/purple>",      "Talotta (without house)"],
+            ["Nominative <blue>Nominatiivi</blue>",      "original/basic form",     "-",      "Talo"],
+            ["Genetive <blue>Genetiivi</blue>",      "possesion of: / whole thing",     "<purple>-n/purple>",      "Talon"],
+            ["Partitive <blue>Partitiivi</blue>",      "partial amount",     "<purple>-a / -tä</purple>",      "Taloa"]
+        ],
+        "imageName": ""
+    },
     {
         "words": ["verb1", "verb 1", "1", "aa", "oa", "ää", "yä", "öä"],
         "translation": "verbs ending in 2 vowels (xxxVV) = remove last V. (he & they strong form, the rest weak form.)",
@@ -4011,7 +4034,7 @@
     },
     {
         "words": ["accommodate"],
-        "translation": "Mukauttaa, sovittaa",
+        "translation": "Mukauttaa, Sovittaa",
         "englishDefinition": "",
         "finnishDefinition": "",
         "table": [],
@@ -4043,7 +4066,7 @@
     },
     {
         "words": ["counsel"],
-        "translation": "Neuvoa, ohjata",
+        "translation": "Neuvoa, Ohjata",
         "englishDefinition": "",
         "finnishDefinition": "",
         "table": [],
@@ -6109,16 +6132,31 @@
         "words": ["sing"],
         "translation": "Laulaa",
         "englishDefinition": "Verb type 1 (aa = oi)",
-        "finnishDefinition": "",
+        "finnishDefinition": [
+            "°<blue>Laulu</blue> - song",
+            "°<blue>Biisi</blue> - song colloquial term"
+        ],
         "table": [],
         "imageName": ""
       },
       {
-        "words": ["taste"],
-        "translation": "Maistaa",
+        "words": ["taste", "sour", "sweet", "bitter", "spicy", "salty"],
+        "translation": "Maistaa, Maistua",
         "englishDefinition": "Verb type 1 (aa = oi)",
-        "finnishDefinition": "",
-        "table": [],
+        "finnishDefinition": [
+            "°<blue>Maistaa</blue> - vt: to taste x.",
+            "°<blue>Maistua</blue> - vi: to taste like."
+        ],
+        "table": [
+            ["Sweet", "<blue>Maistua</blue>"],
+            ["Sour", "<blue>Hapan</blue>"],
+            ["Bitter", "<blue>Katkera</blue>"],
+            ["Salty", "<blue>Suolainen</blue>"],
+            ["Spicy", "<blue>Tulinen</blue>"],
+            ["well seasoned/MSG", "<blue>Mausteinen</blue>"],
+            ["Tangy/sharp acidic taste", "<blue>Kirpeä</blue>"],
+            ["Sweet/sharp bitter taste", "<blue>Karvas</blue>"]
+        ],
         "imageName": ""
       },
       {
@@ -6126,7 +6164,7 @@
         "translation": "Paistaa, Käristää, Kärtsätä",
         "englishDefinition": [
             "Verb type 1:",
-            "°<blue>Paistaa</blue> - transitive: to fry/bake/roast x.",
+            "°<blue>Paistaa</blue> - vt: to fry/bake/roast x.",
             "°<blue>Käristää</blue> - to slighly burn x. (usually use on foods if its nakset.)",
             "°<blue>Kärtsätä</blue> - to sear/sizzle x, cooking x on a high heat. (like cooking a fried rice in a wok)"
             ],
@@ -6221,7 +6259,11 @@
         "words": ["hang"],
         "translation": "Ripustaa",
         "englishDefinition": "Verb type 1 ( VV = i)",
-        "finnishDefinition": "",
+        "finnishDefinition": [
+            "°<blue>Ripustaa</blue> - vt: to put/hand x there. (illative: Repusta se koukkuun)",
+            "°<blue>Roikkua</blue> - vi: x is already there hanging. (inessive: Se roikkuu koukussa)",
+            "<blue>Koukku</blue> - hook"
+        ],
         "table": [],
         "imageName": ""
       },
@@ -6258,18 +6300,15 @@
         "imageName": ""
       },
       {
-        "words": ["get sick"],
-        "translation": "Sairastua",
+        "words": ["get sick", "sick", "have disease"],
+        "translation": "Sairastaa, Sairastua",
         "englishDefinition": "Verb type 1 ( VV = i)",
-        "finnishDefinition": "",
-        "table": [],
-        "imageName": ""
-      },
-      {
-        "words": ["have disease"],
-        "translation": "Sairastaa",
-        "englishDefinition": "Verb type 1 ( VV = i)",
-        "finnishDefinition": "",
+        "finnishDefinition": [
+            "°<blue>Sairastaa</blue> -vt: to get sick with x, to have a disease with x.",
+            "ex. He as asthma, I am sick with the flu, You might get sick with diarhea. They might get cancer from smoking.",
+            "°<blue>Sairastua</blue> vi: to get sick or catch a disease.",
+            "ex. He got sick, I have flu, I fell ill yesterday, They fell ill with cancer."
+        ],
         "table": [],
         "imageName": ""
       },
@@ -6277,23 +6316,22 @@
         "words": ["stand"],
         "translation": "Seisoa",
         "englishDefinition": "Verb type 1 ( VV = i)",
-        "finnishDefinition": "",
+        "finnishDefinition": [
+            "<blue>Seiso suorassa.</blue> - Stand up straight."
+        ],
         "table": [],
         "imageName": ""
       },
       {
-        "words": ["clarify"],
-        "translation": "Selvittää",
+        "words": ["clarify", "explain", "clear"],
+        "translation": "Selvittää, Selittää, Selvitä, Tarkentaa",
         "englishDefinition": "Verb type 1 ( VV = i)",
-        "finnishDefinition": "",
-        "table": [],
-        "imageName": ""
-      },
-      {
-        "words": ["explain"],
-        "translation": "Selittää",
-        "englishDefinition": "Verb type 1 ( VV = i)",
-        "finnishDefinition": "",
+        "finnishDefinition": [
+            "°<blue>Selvittää</blue> - vt: to clarify/solve. (describing WHY & HOW x is.)",
+            "°<blue>Selvitä</blue> - vi: to become clear. (subject itself becomes clear/situation resolve.)",
+            "°<blue>Selittää</blue> - vt: to explain. (making x organized & understandable.)",
+            "°<blue>Tarkentaa</blue> - vt: to specify x. / to expand. (adding details to existing explanations.)"
+        ],
         "table": [],
         "imageName": ""
       },
@@ -6732,6 +6770,33 @@
             "kävitko kakalla? - nakatae ka na ba?"
         ],
         "table": [],
+        "imageName": ""
+    },
+        {
+        "words": ["day"],
+        "translation": "y",
+        "englishDefinition": [""],
+        "finnishDefinition": [""],
+        "table": [
+            ["Day", "Selitys", "Lyhenne"],
+            ["Monday", "<blue>Maanantai</blue>", "ma"],
+            ["Tuesday", "<blue>Tiistai</blue>", "ti"],
+            ["Wednesday", "<blue>Keskiviikko</blue>", "ke"],
+            ["Thursday", "<blue>Torstai</blue>", "to"],
+            ["Friday", "<blue>Perjaintai</blue>", "pe"],
+            ["Saturday", "<blue>Lauantai</blue>", "la"],
+            ["Sunday", "<blue>Sunnuntai</blue>", "su"],
+            ["Week", "<blue>Viiko</blue>", "vko"],
+            ["Weekday", "<blue>Arkipäivä</blue>", ""],
+            ["Weekend", "<blue>viikonloppu</blue>", ""],
+            ["Every other day", "<blue>joka toinen päivä</blue>", ""],
+            ["The other day", "<blue>Toisena päivänä</blue>", ""],
+            ["day after tomorrow", "<blue>Ylihuomenna</blue>", ""],
+            ["day before yesterday", "<blue>Toissapäivänä</blue>", ""],
+            ["Morning", "<blue>Aamupäivä</blue>", "aamu"],
+            ["Afternoon", "<blue>Iltapäivä</blue>", "ilta"],
+            ["Night", "<blue>Yö</blue>", "yö"]
+        ],
         "imageName": ""
     },
         {
