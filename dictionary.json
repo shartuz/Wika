@@ -6142,7 +6142,7 @@
       {
         "words": ["taste", "sour", "sweet", "bitter", "spicy", "salty"],
         "translation": "Maistaa, Maistua",
-        "englishDefinition": "Verb type 1 (aa = oi)",
+        "englishDefinition": ["Verb type 1 (aa = oi)"],
         "finnishDefinition": [
             "°<blue>Maistaa</blue> - vt: to taste x.",
             "°<blue>Maistua</blue> - vi: to taste like."
