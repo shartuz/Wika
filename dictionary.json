@@ -6155,7 +6155,7 @@
             ["Spicy", "<blue>Tulinen</blue>"],
             ["well seasoned/MSG", "<blue>Mausteinen</blue>"],
             ["Tangy/sharp acidic taste", "<blue>Kirpeä</blue>"],
-            ["Sweet/sharp bitter taste", "<blue>Karvas</blue>"]
+            ["sharp bitter taste", "<blue>Karvas</blue>"]
         ],
         "imageName": ""
       },
