@@ -470,6 +470,7 @@
             "follow - <blue>Seurata</blue>",
             "clean - <blue>Siivota</blue>",
             "protect - <blue>Suojata</blue>",
+            "gasp/understand become aware of x - <blue>Tajuta</blue>",
             "offer - <blue>Tarjota</blue>",
             "meet - <blue>Tavata</blue>",
             "order - <blue>Tilata</blue>",
@@ -1030,7 +1031,7 @@
         "table": [
             ["O", "Ongelman määrittely", "mitä kysytään. mitä tiedät jo."],
             ["M", "Muunna", "yksikkö: tarvittaessa. vastaus halutaan. tiedot on annettu."],
-            ["L", "Laske", "Minkä ratkaisumenetelmän valitset", ""],
+            ["L", "Laske", "Minkä ratkaisumenetelmän valitset"],
             ["A", "Arvioi kriittisesti", "Mieti, voiko tulos olla oikein. Tarkista lasku toisella ratkaisumenetelmällä. Tarkistaa, että annat tuloksen oikeina yksikköinä"]
         ],
         "imageName": ""
