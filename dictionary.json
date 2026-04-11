@@ -677,7 +677,7 @@
             "1. Hyvällä tuulella",
             "2. Hyväntuulinen",
             "3. Iloinen",
-            "4. Leppoisalla tuulella",
+            "4. Leppoisalla tuulella, Rauhalinen",
             "5. Aurinkoinen",
             "6. Positiivisella mielellä",
             "7. Kepeällä tuulella"
@@ -1155,17 +1155,19 @@
             "5. Usually",
             "6. Regulalrly",
             "7. Heartless",
-            "8. Endless"
+            "8. Plenty",
+            "9. Endless"
         ],
         "finnishDefinition": [
             "<blue>1. normaalisti",
             "2. aina",
             "3. rennosti",
-            "4. yhtäkkiä / Akkiä",
+            "4. Äkillinen / Äkkiä",
             "5. Yleensä / Tavallisesti",
             "6. Säännöllisesti",
             "7. Sydämetön",
-            "8. Päättymätön</blue>"
+            "8. Runsaasti",
+            "9. Päättymätön</blue>"
         ],
         "table": [
             ["-ful (full of) suffix" ,"-less (without) suffix", "-ish (like) suffix"],
