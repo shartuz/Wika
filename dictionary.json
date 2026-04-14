@@ -556,7 +556,7 @@
             "2. Unsteady gait, requires assistance.",
             "",
             "Nursing Dx:",
-            "- Risk for falls.",
+            "- High risk for falls.",
             "",
             "Intervention:",
             "1. Assisted ambulation with walker.",
@@ -568,7 +568,7 @@
             "2. Kävely on epävarmaa, tarvitsee hoitajan apua.",
             "",
             "Hoitotyön tarve:",
-            "- Katumisriski",
+            "- Korkea katumisriski",
             "",
             "Hoitotoiminut:",
             "1. Avustettu kävely rollaattorin kanssa.",
@@ -594,7 +594,8 @@
             "11. R nails cut and polish applied after shower.",
             "12. Podiatrist cared for resident's feet.",
             "13. Previously R did not want to go to sauna, but now wants to.",
-            "14. Uses the WC independently and does not need help."
+            "14. Uses the WC independently and does not need help.",
+            "15. There was some resistance, but the treatment was completed."
         ],
         "finnishDefinition": [
             "1. Asukas käynyt aamulla suihkussa.",
@@ -610,7 +611,8 @@
             "11. Kynnet leikattu ja lakattu suihkun jälkeen.",
             "12. Jalkahoitaja käynyt hoitamassa asukkaan jalat.",
             "13. Asukas ei ole halunnut mennä saunaan pitkään aikaan, mutta nyt haluaa.",
-            "14. Kävi itsenäisesti WC:ssä, ei tarvinnut hoitajan apua."
+            "14. Kävi itsenäisesti WC:ssä, ei tarvinnut hoitajan apua.",
+            "15. Ajoittaista vastustelua, mutta hoitotoimet saatu tehty"
         ],
         "table": [],
         "imageName": ""
@@ -699,7 +701,8 @@
             "8. Resident felt anxious and wanted to return to the room.",
             "9. Resident was upset about forgetting things.",
             "10. Resident felt embarrassed receiving help from others.",
-            "11. Resident was nervous about going outside."
+            "11. Resident was nervous about going outside.",
+            "12. Violent/aggresive behavior occurred during the care situation"
         ],
         "finnishDefinition": [
             "1. Asukas oli aamuvuoron aikaan hyvällä tuulella.",
@@ -712,7 +715,9 @@
             "8. Asukas koki ahdistusta ja halusi palata huoneeseen.",
             "9. Asukasta harmitti, ettei muista asioita hyvin.",
             "10. Asukasta hävetti olla muiden autettavana.",
-            "11. Asukasta jännitti lähteä ulos."
+            "11. Asukasta jännitti lähteä ulos.",
+            "12. Hoitotilanteessa ilmeni aggressiivista käytöstä",
+            "<b>Agitoitunutta käytöstä - aggresive behavior due to confusion or illness</b>"
         ],
         "table": [],
         "imageName": ""
@@ -1156,7 +1161,8 @@
             "6. Regulalrly",
             "7. Heartless",
             "8. Plenty",
-            "9. Endless"
+            "9. Endless",
+            "10. Moderate"
         ],
         "finnishDefinition": [
             "<blue>1. normaalisti",
@@ -1167,7 +1173,8 @@
             "6. Säännöllisesti",
             "7. Sydämetön",
             "8. Runsaasti",
-            "9. Päättymätön</blue>"
+            "9. Päättymätön",
+            "10. Kohtalainen</blue>"
         ],
         "table": [
             ["-ful (full of) suffix" ,"-less (without) suffix", "-ish (like) suffix"],
@@ -1212,6 +1219,48 @@
             ["rxn", "reaction"],
             ["schizo are NOT dangerous", "just listen, understand, validate & present reality"]
         ],
+        "imageName": ""
+    },
+        {
+        "words": ["commandz", "command"],
+        "translation": "y",
+        "englishDefinition": [
+            "1. Lean - lean forward",
+            "2. Bow - bow ahead/forward",
+            "3. Spread - kayang ka konte please",
+            "4. Straight - Straighten your legs",
+            "5. Straighten own legs",
+            "6. the legs straightens",
+            "7. Bend - bend your legs a little",
+            "8. Hit - dont hit me / dont do(hit) that"
+        ],
+        "finnishDefinition": [
+            "<blue>1. Nojata - Nojaa eteenpäin",
+            "2. Kumartua - Kumarruu eteenpääin",
+            "3. Levittää - Voitteko levittää jalat vähän, Liveää vähän jalat",
+            "4. Ojenna - Ojenna jalat (use this for commanding X)",
+            "5. Ojentaa - Ojennan minun jalat",
+            "6. Ojentua - Jalka ojentuu",
+            "7. Koukistaa - Koukista jalat hieman",
+            "8. Lyödä - Älä lyö</blue>"
+        ],
+        "table": [],
+        "imageName": ""
+    },
+        {
+        "words": ["unlike"],
+        "translation": "toisin kuin",
+        "englishDefinition": ["ex. unlike yesterday"],
+        "finnishDefinition": ["es. toisin kuin eilen"],
+        "table": [],
+        "imageName": ""
+    },
+        {
+        "words": ["pa isa isa", "isa isa", "isaisa"],
+        "translation": "yksi kerallan",
+        "englishDefinition": ["check mo gamot ng pa isa isa"],
+        "finnishDefinition": ["tarkistaa lääkkeet yksi kerallan"],
+        "table": [],
         "imageName": ""
     },
         {
